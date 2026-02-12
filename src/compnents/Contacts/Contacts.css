@@ -55,3 +55,7 @@
     margin-top: 5px;
     resize: none;
 }
+.contact-col span{
+    display: block;
+    margin: 20px 0;
+}
