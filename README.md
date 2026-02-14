@@ -30,7 +30,7 @@ Educity is a web platform designed to provide information about programs, admiss
 
 Clone the repository:
 
-git clone https://github.com/YOUR_USERNAME/Educity.git
+git clone https://github.com/Melanie1-1dev/Educity.git
 
 Go into the project folder:
 
