@@ -50,7 +50,7 @@ const Contacts = () => {
 
         </div>
       <div className="contact-col">
-        <form onSubmit={onSubmit}>
+        <form onSubmit={onSubmit} encritype="multipart/form-data">
             <label>Your name</label>
             <input type="text" name='name' placeholder='Enter your name' required/>
             <label>Phone Number</label>
