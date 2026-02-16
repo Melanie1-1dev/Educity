@@ -8,6 +8,7 @@ import Campus from './compnents/Campus/Campus'
 import Testimonials from './compnents/Testimonials/Testimonials'
 import Contacts from './compnents/Contacts/Contacts'
 import Footer from './compnents/Footer/Footer'
+import Videoplayer from './compnents/VideoPlayer/Videoplayer'
 const App = () => {
   return (
     <div>
@@ -26,6 +27,7 @@ const App = () => {
       <Footer/>
 
     </div>
+    <Videoplayer/>
     </div>
   )
 }
