@@ -10,6 +10,8 @@ import Contacts from './compnents/Contacts/Contacts'
 import Footer from './compnents/Footer/Footer'
 import Videoplayer from './compnents/VideoPlayer/Videoplayer'
 const App = () => {
+
+  const [playState, setPlayState] = useState(false);
   return (
     <div>
     <Navbar/> 
@@ -17,7 +19,7 @@ const App = () => {
     <div className="container">
       <Title subTitle='OUR PROGRAM' Title='What we offer'/>
     <Programs/>
-    <About/>
+    <About setPlayState ={setPlayState}/>
       <Title subTitle='Gallery' Title='Campus Photos'/>
       <Campus/>
       <Title subTitle='TESTIMONIALS' Title='What Student Says'/>
@@ -27,7 +29,7 @@ const App = () => {
       <Footer/>
 
     </div>
-    <Videoplayer/>
+    <Videoplayer playState={playState} setPlayState={setPlayState} />
     </div>
   )
 }
