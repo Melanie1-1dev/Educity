@@ -24,6 +24,7 @@
     width: 70px;
     position: absolute;
     transform: translate(-80px,-80px);
+    cursor: pointer;
 }
 .about h3{
     font-weight: 600;
