@@ -8,7 +8,9 @@ import Campus from './compnents/Campus/Campus'
 import Testimonials from './compnents/Testimonials/Testimonials'
 import Contacts from './compnents/Contacts/Contacts'
 import Footer from './compnents/Footer/Footer'
-import Videoplayer from './compnents/VideoPlayer/Videoplayer'
+import VideoPlayer from './compnents/VideoPlayer/Videoplayer'
+import { useState } from "react";
+
 const App = () => {
 
   const [playState, setPlayState] = useState(false);
@@ -29,7 +31,7 @@ const App = () => {
       <Footer/>
 
     </div>
-    <Videoplayer playState={playState} setPlayState={setPlayState} />
+    <VideoPlayer playState={playState} setPlayState={setPlayState} />
     </div>
   )
 }
